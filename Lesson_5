@@ -1,0 +1,6 @@
+import divisor_master
+
+for n in range(1,1001):
+    print(divisor_master.Prime_number(n))
+    print(divisor_master.all_dividers(n))
+    print(divisor_master.biggest_div(n))
